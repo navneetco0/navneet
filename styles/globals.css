@@ -5,7 +5,15 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #0070f3;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-image: linear-gradient(134deg, #6A98F0 0%, #4961DC 99%);
+}
 a {
   color: inherit;
   text-decoration: none;
