@@ -4,7 +4,7 @@ export const Linkedin = () => {
       id="linkedin"
       height="24"
       viewBox="0 0 34 34"
-      class="global-nav__logo"
+      className="global-nav__logo"
     >
       <g>
         <path

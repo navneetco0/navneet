@@ -1,7 +1,7 @@
 export const GitHub = () => {
   return (
     <svg
-      ariaHidden="true"
+      aria-hidden="true"
       focusable="false"
       height={'24px'}
       role="img"
