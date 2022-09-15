@@ -26,12 +26,12 @@ const MainHome = () => {
           </pre>
           <pre>2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; constructor() {'{'}</pre>
           <pre>
-            3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = "
-            <b>Navneet Kumar</b>";
+            3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.name = &quot;
+            <b>Navneet Kumar</b>&quot;;
           </pre>
           <pre>
-            4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = "
-            <b>CODING</b>", "<b>PROBLEM SOLVING</b>";
+            4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.traits = &quot;
+            <b>CODING</b>&quot;, &quot;<b>PROBLEM SOLVING</b>&quot;;
           </pre>
           <pre>
             5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.age = new
