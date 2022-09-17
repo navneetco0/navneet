@@ -4,7 +4,7 @@ import  MainHome from '../components/Home/MainHome'
 
 export default function Home() {
   return (
-    <Box w='100%' h="100vh" pos={'relative'} >
+    <Box w='100%' h="100vh" pos={'relative'} overflowX="hidden" >
       <MainHome/>
       <AboutMe/>
     </Box>

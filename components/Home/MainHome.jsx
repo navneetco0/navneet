@@ -2,14 +2,10 @@ import { Box, Button, Center, Flex, Text } from '@chakra-ui/react'
 import { GitHub } from '../../Assets/SVG/GitHub'
 import { Linkedin } from '../../Assets/SVG/Linkedin'
 import { Triangle } from '../../Assets/SVG/Triangle'
-import { Heading } from '../Heading'
+import { Heading } from '../Heading';
+import { Things } from "./Things";
 
 const MainHome = () => {
-  const Things = [
-    {icon:'', heading:'FrontEnd', description:"I'm more front end focused and love to work with ReactJs, NextJs, ReactNative as well as pure HTML, CSS."},
-    {icon:"", heading:'Javascript', description:"I just extremely love javascript, I can't even express how much I love javascript with just a few lines."},
-    {icon:"", heading:'New Languages', description:"I Love to Learn New Language and tools."}
-  ]
   return (
     <Box
       id="home"
@@ -119,11 +115,7 @@ const MainHome = () => {
         </Box>
       </Flex>
       <Heading text={"Things I love"}/>
-      <Flex mt="30px">
-        <Center>
-
-        </Center>
-      </Flex>
+      <Things/>
     </Box>
   )
 }
