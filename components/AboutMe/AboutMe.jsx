@@ -45,7 +45,7 @@ export const AboutMe = () => {
         <Box fontSize={'16px'} color="white">
           <Text>
             My name is Navneet Kumar, I am a MERN stack graduate from Masai
-            School, Bengaluru. I'm a MERN Stack Development enthusiast. I
+            School, Bengaluru. I&apos;m a MERN Stack Development enthusiast. I
             realize within my first year in college, I am interested in pursuing
             tech skill where I could learn web development? My long-term goal
             goes on through small steps.

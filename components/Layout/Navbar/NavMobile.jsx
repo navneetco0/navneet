@@ -1,7 +1,7 @@
 import { Button, Center, Circle, Flex, Text } from "@chakra-ui/react"
 import { useState } from "react"
 import { Menu } from "../../../Assets/SVG/Menu"
-import { useScrollnav } from "../../../Hooks/useScrollnav"
+import { useScrollnav } from "../../../Hooks/scrollnav"
 
 export default function NavMobile ({texts}){
     const [expand, setExpand] = useState(false)
