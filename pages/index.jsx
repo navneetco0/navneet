@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react';
 import { AboutMe } from '../components/AboutMe/AboutMe';
 import  MainHome from '../components/Home/MainHome'
+import { Skills } from '../components/Skills/Skills';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Box p="15px 0px"></Box>
       <MainHome/>
       <AboutMe/>
+      <Skills/>
     </Box>
   )
 }

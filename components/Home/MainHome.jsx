@@ -44,6 +44,7 @@ const MainHome = () => {
             m={['20px auto', '20px auto', '20px auto 20px 0px']}
             w="fit-content"
             colorScheme={'messenger'}
+            bg="#6d83f2"
             mt="20px"
             onClick={()=>window.open("https://drive.google.com/file/d/1S3aDW8lrid0zPRXgSu-k88eMrxDRVtrk/view?usp=sharing","_blank")}
             _hover={{ transition: 'transform 0.5s', transform: 'scale(1.05)' }}
@@ -64,6 +65,7 @@ const MainHome = () => {
                 cursor: 'pointer',
                 transitionDuration: '2s',
               }}
+              mr='20px'
             >
               <GitHub />
             </Box>

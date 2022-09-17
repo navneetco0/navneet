@@ -5,6 +5,7 @@ export const NodeJs = () => {
       focusable="false"
       role="img"
       viewBox="0 0 640 512"
+      height={'100%'}
     >
       <path
         fill="currentColor"

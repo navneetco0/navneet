@@ -3,9 +3,10 @@ export const GitHub = () => {
     <svg
       aria-hidden="true"
       focusable="false"
-      height={'24px'}
+      height="100%"
       role="img"
       viewBox="0 0 496 512"
+
     >
       <path
         fill="currentColor"

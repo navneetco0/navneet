@@ -6,7 +6,7 @@ export const AboutMe = () => {
   const quotes = [
     'I always think worst cases.',
     'I try to work on myself instead of following another.',
-    "I always say to myself, I&apos;ve to work on myself.",
+    "I always say to myself, I've to work on myself.",
   ]
   return (
     <Box id="aboutme" position={'relative'} overflow="hidden">
@@ -60,7 +60,7 @@ export const AboutMe = () => {
           </Text>
         </Box>
       </Flex>
-      <Flex mt="30px" justifyContent={'space-evenly'} flexWrap="wrap" gap="20px" color="#6d83f2" >
+      <Flex mt="30px" justifyContent={'space-evenly'} flexWrap="wrap" gap="20px" color="#6d83f2" mb={'20px'}>
         {quotes.map((Element, index) => (
           <Flex flexDir={'column'} justifyContent="space-between" gap="15px" p="20px" key={index}  bg="#f8f8f8" boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'} borderRadius="10px" zIndex="2">
             <Text fontSize={'16px'}>&quot;{Element}&quot;</Text>
