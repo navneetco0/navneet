@@ -1,5 +1,5 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
-import { useScrollnav } from '../../../Hooks/scrollnav'
+import { scrollnav } from '../../../Hooks/scrollnav'
 export default function NavDesktop ({ texts }) {
 
   return (
@@ -8,7 +8,7 @@ export default function NavDesktop ({ texts }) {
         <Box></Box>
         <Flex ml="auto" gap="30px">
           {texts.map((Element, index) => (
-            <Text key={index} onClick={()=>useScrollnav(Element)} color="#6D83F2" _hover={{color:'#383838', cursor:'pointer', transitionDuration:'2s'}}>{Element}</Text>
+            <Text key={index} onClick={()=>scrollnav(Element)} color="#6D83F2" _hover={{color:'#383838', cursor:'pointer', transitionDuration:'2s'}}>{Element}</Text>
           ))}
         </Flex>
       </Flex>
