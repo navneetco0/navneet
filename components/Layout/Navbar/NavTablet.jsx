@@ -1,7 +1,7 @@
 import { Flex, Text } from '@chakra-ui/react'
 import { useScrollnav } from '../../../Hooks/useScrollnav'
 
-export const NavTablet = ({ texts }) => {
+export default function NavTablet  ({ texts })  {
   return (
     <Flex
       pos="fixed"

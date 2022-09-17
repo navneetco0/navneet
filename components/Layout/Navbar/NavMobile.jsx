@@ -3,7 +3,7 @@ import { useState } from "react"
 import { Menu } from "../../../Assets/SVG/Menu"
 import { useScrollnav } from "../../../Hooks/useScrollnav"
 
-export const NavMobile = ({texts})=>{
+export default function NavMobile ({texts}){
     const [expand, setExpand] = useState(false)
     return (
         <Center pos="fixed"  bottom="40px" right="10%" cursor={'pointer'} bg="white" zIndex="3">

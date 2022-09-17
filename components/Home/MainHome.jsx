@@ -11,7 +11,7 @@ const MainHome = () => {
       id="home"
       w={['90%', '95%', '95%', '80%']}
       m="auto"
-      pt={['40px', '40px', '210px']}
+      pt={['40px', '40px', '180px']}
     >
       <Triangle />
       <Flex
@@ -26,7 +26,7 @@ const MainHome = () => {
             fontSize={'16px'}
             lineHeight="24px"
           >
-            Hello, I'm
+            Hello, I&apos;m
           </Text>
           <Text
             className="code"

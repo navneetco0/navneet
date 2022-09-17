@@ -1,6 +1,6 @@
 import { Box, Flex, Text } from '@chakra-ui/react'
 import { useScrollnav } from '../../../Hooks/useScrollnav'
-export const NavDesktop = ({ texts }) => {
+export default function NavDesktop ({ texts }) {
 
   return (
     <Flex pos="fixed" width="100%" top="0" p="13px" boxShadow={'rgba(0, 0, 0, 0.2) 0px 2px 5px 2px'} bg="white" zIndex="3">

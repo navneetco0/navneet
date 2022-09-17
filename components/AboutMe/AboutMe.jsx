@@ -6,10 +6,10 @@ export const AboutMe = () => {
   const quotes = [
     'I always think worst cases.',
     'I try to work on myself instead of following another.',
-    "I always say to myself, I've to work on myself.",
+    "I always say to myself, I&apos;ve to work on myself.",
   ]
   return (
-    <Box id="aboutme" mt="100px" position={'relative'}>
+    <Box id="aboutme" position={'relative'} overflow="hidden">
       <Heading text={'About Me'} />
       <Box
         position={'absolute'}
@@ -18,7 +18,7 @@ export const AboutMe = () => {
         h={['1600px', '700px', '500px']}
         transform={'rotate(-3deg)'}
         bg="#6d83f2"
-        top="150px"
+        top="210px"
         zIndex={'-1'}
       ></Box>
       <Flex
@@ -63,7 +63,7 @@ export const AboutMe = () => {
       <Flex mt="30px" justifyContent={'space-evenly'} flexWrap="wrap" gap="20px" color="#6d83f2" >
         {quotes.map((Element, index) => (
           <Flex flexDir={'column'} justifyContent="space-between" gap="15px" p="20px" key={index}  bg="#f8f8f8" boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'} borderRadius="10px" zIndex="2">
-            <Text fontSize={'16px'}>"{Element}"</Text>
+            <Text fontSize={'16px'}>&quot;{Element}&quot;</Text>
             <Text fontFamily={'montserrat'} fontSize="12px" textAlign={'right'}>-Navneet Kumar</Text>
           </Flex>
         ))}

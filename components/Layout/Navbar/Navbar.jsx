@@ -1,7 +1,7 @@
 import { Flex, Hide, Show } from "@chakra-ui/react"
-import { NavDesktop } from "./NavDesktop"
-import { NavMobile } from "./NavMobile"
-import { NavTablet } from "./NavTablet";
+import  NavDesktop from "./NavDesktop"
+import  NavMobile from "./NavMobile"
+import  NavTablet from "./NavTablet";
 
 export const Navbar = ()=>{
     const texts = ['home', 'about me', 'skills', 'projects', 'contact'];
