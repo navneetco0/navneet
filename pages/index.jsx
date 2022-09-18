@@ -7,7 +7,7 @@ import { Skills } from '../components/Skills/Skills';
 
 export default function Home() {
   return (
-    <Box w='100%' minH="100vh" pos={'relative'}  >
+    <Box w='100%' minH="100vh" bg='#f8f8f8' pos={'relative'}  >
       <Box p="15px 0px"></Box>
       <MainHome/>
       <AboutMe/>

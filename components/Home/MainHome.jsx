@@ -44,7 +44,7 @@ const MainHome = () => {
             m={['20px auto', '20px auto', '20px auto 20px 0px']}
             w="fit-content"
             colorScheme={'messenger'}
-            bg="#6d83f2"
+            bg="#2424FF"
             mt="20px"
             onClick={()=>window.open("https://drive.google.com/file/d/1S3aDW8lrid0zPRXgSu-k88eMrxDRVtrk/view?usp=sharing","_blank")}
             _hover={{ transition: 'transform 0.5s', transform: 'scale(1.05)' }}
@@ -59,7 +59,7 @@ const MainHome = () => {
           >
             <Box
             onClick={()=>window.open("https://github.com/navneetco0","_blank")}
-              color={'#6d83f2'}
+              color={'#2424FF'}
               _hover={{
                 color: '#383838',
                 cursor: 'pointer',
@@ -71,7 +71,7 @@ const MainHome = () => {
             </Box>
             <Box
             onClick={()=>window.open("https://www.linkedin.com/in/navneet-kumar-818654248/","_blank")}
-              color={'#6d83f2'}
+              color={'#2424FF'}
               _hover={{
                 color: '#383838',
                 cursor: 'pointer',
@@ -88,7 +88,7 @@ const MainHome = () => {
           boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'}
           zIndex={2}
           borderRadius="10px"
-          color="#6D83F2"
+          color="#2424FF"
           fontSize={'0.8em'}
           lineHeight="30px"
           bg="#f8f8f8"

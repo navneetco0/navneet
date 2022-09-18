@@ -31,14 +31,14 @@ export const Skills = () => {
     <Box id="skills" >
       <Heading text={'Skills'} />
       <Grid
-        color="#6d83f2"
+        color="#2424FF"
         templateColumns={['repeat(1, 1fr)', 'repeat(4, 1fr)', 'repeat(6, 1fr)']}
         gap="20px"
         mt="40px"
       >
         {skills.map((Element, index) => (
           <Center flexDirection={'column'} key={index}>
-            <Square flexDir={'column'} _hover={{bg:"#6d83f2", color:"white", transitionDuration:'2s', borderRadius:'10px'}} p="5px" size="110px">
+            <Square flexDir={'column'} _hover={{bg:"#2424FF", color:"white", transitionDuration:'2s', borderRadius:'10px'}} p="5px" size="110px">
               <Box maxW="120px" h="40px">
                 {Element.icon}
               </Box>

@@ -37,18 +37,18 @@ export const Things = () => {
           boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'}
           borderRadius="10px"
           zIndex="2"
-          _hover={{bg:"#6d83f2", transform:'scale(1.1)', transition:'transform 1s'}}
+          _hover={{bg:"#2424FF", transform:'scale(1.1)', transition:'transform 1s'}}
           data-group
         >
-          <Circle bg="#6d83f2" m={'auto'} size="100px" _groupHover={{bg:'white'}}>
-            <Box h="40px" color={'white'} _groupHover={{color:'#6d83f2'}}>
+          <Circle bg="#2424FF" m={'auto'} size="100px" _groupHover={{bg:'white'}}>
+            <Box h="40px" color={'white'} _groupHover={{color:'#2424FF'}}>
               {Element.icon}
             </Box>
           </Circle>
           <Text
             fontFamily={'montserrat'}
             fontSize="21px"
-            color="#6d83f2"
+            color="#2424FF"
             m="20px 0px"
             _groupHover={{color:'white'}}
           >

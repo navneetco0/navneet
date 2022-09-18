@@ -17,9 +17,9 @@ export const AboutMe = () => {
         left={['-40%', '-5%']}
         h={['1600px', '700px', '500px']}
         transform={'rotate(-3deg)'}
-        bg="#6d83f2"
+        bg="#2424FF"
         top="210px"
-        zIndex={'-1'}
+        // zIndex={'-1'}
       ></Box>
       <Flex
         w={['90%', '95%', '95%', '80%']}
@@ -28,12 +28,14 @@ export const AboutMe = () => {
         flexDirection={['column', 'column', 'row']}
         justifyContent={['center', 'center', 'space-between']}
         alignItems={['center', 'center', 'space-between']}
+        zIndex="2"
       >
         <Circle
           border={'5px solid white'}
           overflow="hidden"
           size="225px"
           mb={['40px', '40px', '0px']}
+          zIndex="2"
         >
           <Image
             width="225px"
@@ -42,7 +44,7 @@ export const AboutMe = () => {
             alt="Navneet Kumar"
           />
         </Circle>
-        <Box fontSize={'16px'} color="white">
+        <Box fontSize={'16px'} color="white" zIndex="2">
           <Text>
             My name is Navneet Kumar, I am a MERN stack graduate from Masai
             School, Bengaluru. I&apos;m a MERN Stack Development enthusiast. I
@@ -60,7 +62,7 @@ export const AboutMe = () => {
           </Text>
         </Box>
       </Flex>
-      <Flex mt="30px" justifyContent={'space-evenly'} flexWrap="wrap" gap="20px" color="#6d83f2" mb={'20px'}>
+      <Flex mt="30px" justifyContent={'space-evenly'} flexWrap="wrap" gap="20px" color="#2424FF" mb={'20px'}>
         {quotes.map((Element, index) => (
           <Flex flexDir={'column'} justifyContent="space-between" gap="15px" p="20px" key={index}  bg="#f8f8f8" boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'} borderRadius="10px" zIndex="2">
             <Text fontSize={'16px'}>&quot;{Element}&quot;</Text>

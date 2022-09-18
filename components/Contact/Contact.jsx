@@ -26,7 +26,7 @@ export const Contact = () => {
           <Center
             flexDir={'column'}
             color="white"
-            bg="#6d83f2"
+            bg="#2424FF"
             borderRadius={'10px 0px 0px 10px'}
             p="8%"
           >
@@ -40,7 +40,7 @@ export const Contact = () => {
           </Center>
         </Show>
         <Show below="987px">
-          <Box borderRadius={'20px'} top="-20px" position={'absolute'} w="100%" bg="#6d83f2" h={['500px','440px']}></Box>
+          <Box borderRadius={'20px'} top="-20px" position={'absolute'} w="100%" bg="#2424FF" h={['500px','440px']}></Box>
         </Show>
         <Box
           zIndex={2}
@@ -51,8 +51,9 @@ export const Contact = () => {
           borderRadius={'10px'}
           bg="white"
           m="auto"
+          overflow={'hidden'}
         >
-          <form action="" style={{overflow:'hidden'}}>
+          <form action="">
             <Flex w="100%" gap="2%" flexDir={['column', 'row']}>
               <Box w={["100%","49%"]} mb="20px">
                 <label>Email</label>
@@ -70,7 +71,7 @@ export const Contact = () => {
             <Button
               ml="auto"
               color="white"
-              bg="#6d83f2"
+              bg="#2424FF"
               colorScheme={'messenger'}
               display="block"
             >
