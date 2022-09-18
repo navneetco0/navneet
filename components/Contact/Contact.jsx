@@ -1,16 +1,7 @@
-import {
-  Box,
-  Button,
-  Center,
-  Flex,
-  Input,
-  Show,
-  Text,
-  Textarea,
-} from '@chakra-ui/react'
-import { Send } from '../../Assets/SVG/Send'
+import { Box, Center, Flex, Show, Text } from '@chakra-ui/react'
 import { Touch } from '../../Assets/SVG/Touch'
 import { Heading } from '../Heading'
+import { Form } from './Form'
 
 export const Contact = () => {
   return (
@@ -44,7 +35,6 @@ export const Contact = () => {
         </Show>
         <Box
           zIndex={2}
-          // flexGrow={["0","1"]}
           w={['calc(100% - 40px)']}
           boxShadow={'rgba(0, 0, 0, 0.5) 0px 5px 10px 0px'}
           p="30px"
@@ -53,36 +43,7 @@ export const Contact = () => {
           m="auto"
           overflow={'hidden'}
         >
-          <form action="">
-            <Flex w="100%" gap="2%" flexDir={['column', 'row']}>
-              <Box w={["100%","49%"]} mb="20px">
-                <label>Email</label>
-                <Input mt={'10px'} placeholder="example@gmail.com" />
-              </Box>
-              <Box w={["100%","49%"]} mb="20px">
-                <label>Name</label>
-                <Input mt="10px" placeholder="John Doe" />
-              </Box>
-            </Flex>
-            <Box mb="20px">
-              <label>Message</label>
-              <Textarea mt="10px" placeholder="Hey there!" h={'200PX'} />
-            </Box>
-            <Button
-              ml="auto"
-              color="white"
-              bg="#2424FF"
-              colorScheme={'messenger'}
-              display="block"
-            >
-              <Center>
-                <Box h="14px">
-                  <Send />
-                </Box>
-                Submit
-              </Center>
-            </Button>
-          </form>
+          <Form/>
         </Box>
       </Flex>
     </Box>
