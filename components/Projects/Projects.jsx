@@ -62,7 +62,7 @@ export const Projects = () => {
     },
   ]
   return (
-    <Box id="projects" w={['90%','90%','80%']} m="auto">
+    <Box id="projects" w={['90%','90%','80%']} m="auto" pt="100px">
       <Heading text={'Projects'} />
       {projects.map((Element, index) => (
         <Flex
@@ -80,6 +80,7 @@ export const Projects = () => {
           ]}
           borderRadius="10px"
           pt="10px"
+          // _hover={{bg:'blue'}}
         >
           <Flex
             alignItems={'end'}
@@ -90,6 +91,7 @@ export const Projects = () => {
             h={["initial","500px","400px"]}
             borderRadius={'10px'}
             boxShadow={["","rgba(0, 0, 0, 0.5) 0px 0px 4px 0px"]}
+            // _groupHover={{bg:'blue', transform:'scale(1.5)'}}
           >
             <Flex gap="10px" p="10px" color={'#2727ff'}>
               {Element.techstack.map((element, i) => (
@@ -112,6 +114,7 @@ export const Projects = () => {
             borderRadius={'10px'}
             p="20px"
             h={['auto','400px']}
+            // _groupHover={{bg:"blue", color:'white'}}
           >
             <Box>
               <Text mt={["0px", "50px", "50px", "0px"]} mb="15px" fontSize={'36px'} fontWeight="700">

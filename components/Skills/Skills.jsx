@@ -28,7 +28,7 @@ export const Skills = () => {
     { icon: <Git />, text: 'Github' },
   ]
   return (
-    <Box id="skills" >
+    <Box id="skills" pt="100px" >
       <Heading text={'Skills'} />
       <Grid
         color="#2424FF"

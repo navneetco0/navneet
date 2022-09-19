@@ -9,7 +9,7 @@ export const AboutMe = () => {
     "I always say to myself, I've to work on myself.",
   ]
   return (
-    <Box id="aboutme" position={'relative'} overflow="hidden">
+    <Box id="aboutme" position={'relative'} overflow="hidden" pt="100px">
       <Heading text={'About Me'} />
       <Box
         position={'absolute'}
